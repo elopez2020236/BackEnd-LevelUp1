@@ -11,6 +11,7 @@ const FormularioSchema = Schema({
     carrera: String,
     generoPoesia: String,
     fechaInscripcion: String,
+    fechaDeclamacion: String,
 });
 
 module.exports = mongoose.model("Formulario", FormularioSchema);
