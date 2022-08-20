@@ -4,7 +4,7 @@ function GenerarFormulario(req, res) {
     var parametros = req.body;
     var modeloFormulario = new Formulario();
     var carnet = parametros.carnet
-    const cantidadLetras = parametros.carnet.length
+    const cantidadLetras = parametros.carnet.length;
     var PrimeraLetra = carnet.charAt(0)
     var TerceraLetra = carnet.charAt(2)
     var SextaLetra = carnet.charAt(5)
