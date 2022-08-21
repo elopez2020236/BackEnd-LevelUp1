@@ -3,7 +3,7 @@ const formularioControles = require("../controllers/Formulario");
 
 const api = express.Router();
 
-api.get('/generarFormulario/', formularioControles.GenerarFormulario)
+api.post('/generarFormulario', formularioControles.GenerarFormulario)
 api.get('/generarReporte', formularioControles.GenerarReporte)
 
 
